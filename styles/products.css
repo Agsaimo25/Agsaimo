@@ -1,0 +1,48 @@
+
+
+.vermi-container {
+    position: relative;
+    top: 100px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 5px solid #4caf50; /* Green border */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    margin-bottom: 20px;
+}
+
+.head{
+    position: relative;
+    top: 100px;
+    text-align: center;
+
+}
+.vermi-container h1 {
+    text-align: center;
+    color: #4caf50; 
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+
+
+
+.separator {
+    text-align: center;
+    position: relative;
+    margin: 20px 0;
+}
+
+
+.sep-line {
+    border-top: 2px solid #4caf50;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+
+

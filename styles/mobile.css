@@ -1,0 +1,403 @@
+@media (max-width:720px){
+    .footer{
+    
+    text-align:left;
+    padding:5%;
+    }
+    .footer .footer-row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+.dinesh{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    margin-bottom: 5px;
+}
+.dinesh a{
+    margin:0px 20px;
+    
+}
+
+    .footer .footer-row a i{
+    margin:0% 3%;
+    }
+    }
+  
+    @media (max-width: 767px) {
+        .new-event-slide {
+            font-size: 16px;
+        }
+    }
+    
+    /* Media query for medium screens (e.g., tablets) */
+    @media (min-width: 768px) and (max-width: 991px) {
+        .new-event-slide {
+            top: 20px;
+            font-size: 18px;
+        }
+    }
+    
+    /* Media query for large screens (e.g., desktops) */
+    @media (min-width: 992px) {
+        .new-event-slide {
+            font-size: 24px;
+        }
+    }
+    
+
+@media screen and (min-width: 250px) and (max-width: 900px){
+
+    
+    html, body{
+        overflow-x: hidden;
+    }
+    .overlay{
+        gap:10px;
+    }
+    .overlay h1{
+        margin-bottom: 5px;
+    }
+    .header-nav .nav-buttons{
+        display: none;
+    }
+    .date-heading{
+        font-size:1.25rem;
+    }
+    .nav-buttons-mobile{
+        display: flex
+    }
+    
+    .nav-btn::after{
+        margin-left: 35px;
+        width: 60%;
+    }
+
+    .header-nav .branding .brand-name{
+        transform: translateY(0);
+        
+    }
+    h1{
+        font-size: 1.7rem;
+    }
+   
+  
+    .hamburger{
+        display: flex;
+    }
+    .carousel-item{
+        height: 300px;
+    }
+    .row .col-lg-6{
+        margin-bottom: -200px;
+    }
+    .about-us .container .row .col-lg-6 h3 {
+        font-size: 20px;
+    }
+    .about h1{
+        font-size: 25px;
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
+    .news{
+        font-size: 15px;
+    }
+    .about-us .container .row .col-lg-6 h1{
+        
+        font-size: 30px;
+    }
+  
+    .carousel-item img {
+        height: 15rem;
+    }
+
+    #carouselExampleIndicators {
+        height: 15rem;
+        background-color: rgba(174, 188, 207, 0.397);
+    }
+
+    .d-block {
+        width: 100%;
+        height: 50rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    .carousel-control-prev-icon {
+        filter: invert(100%);
+        width: 20px;
+        height: 20px;
+    }
+
+    .carousel-control-next-icon {
+        filter: invert(100%);
+        width: 20px;
+        height: 20px;
+    }
+    .product{
+        margin-top: -80px;
+    }
+
+    .contact-page{
+       margin-top: 200px;
+    }
+    .contact-page h2{
+        font-size:large;
+    }
+    .footer-row svg{
+        margin-left: -20px;
+    }
+    .team h1{
+        font-size: 25px;
+    }
+    #product h1{
+        font-weight:bolder;
+    }
+  
+
+}
+
+
+@media (max-width: 768px) {
+    .card-container {
+      flex-direction: column; 
+      align-items: center; 
+      gap: 30px; 
+    }
+  
+    .card {
+      max-width: 100%; 
+      margin-bottom: 30px; 
+    }
+  
+    .img img {
+     
+        width: 150px;
+      height: 150px; 
+      
+    }
+    .img-avatar {
+      
+        width: 150px;
+      height: 150px; 
+    }
+  
+    .card h2 {
+      text-align: center;
+    }
+  
+    .card .title {
+      text-align: center; /* Center card title */
+    }
+  
+    .desc {
+      padding: 1rem; /* Add padding to description */
+      text-align: center; /* Center card description */
+    }
+  
+    .card .actions {
+      justify-content: center; /* Center card actions */
+    }
+  
+    .card svg {
+      width: 75px; /* Reduce icon size */
+      height: 75px;
+    }
+  
+    .card:hover .img-avatar {
+      transform: scale(1); /* Remove image scaling on hover */
+    }
+  }
+  
+  
+
+
+@media (max-width: 991px) {
+    section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .contact-info {
+        margin-bottom: 40px;
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+    .mission-card,
+.vision-card{
+    padding: 0;
+}
+}
+@media(width<=750px){
+    .vissionAndMission {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .mission-card,
+    .vision-card {
+        width: 500px;
+        margin: 0;
+    }
+}
+@media(width<=620px){
+    .vissionAndMission {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .mission-card,
+    .vision-card {
+        width: 500px;
+        margin: 0;
+    }
+}
+@media(width<=576px) {
+    .mission-card,
+    .vision-card {
+        width: 400px;
+        margin: 0;
+    }
+ 
+    iframe{
+        width: 300px;
+        height: 300px;
+        border-radius: 60px;
+        
+    }
+}
+@media(width<=420px) {
+    .mission-card,
+    .vision-card {
+        width: 300px;
+        margin: 0;
+    }
+    iframe{
+        width: 350px;
+        height: 300px;
+        border-radius: 60px;
+    }
+}
+@media(width<=360px) {
+    .mission-card,
+    .vision-card {
+        width: 300px;
+        margin: 0;
+    }
+    iframe{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+
+
+
+
+
+@media(width<=1280px) {
+
+    .product img{
+         width:340px;
+         height: 230px;
+     }
+     .leaf{
+         display: none;
+     }
+ }
+ @media(width<=1024px) {
+ 
+   .product  img{
+         width:260px;
+         height: 180px;
+     }
+     .leaf{
+         display: none;
+     }
+ }
+ @media(width<=992px) {
+ 
+    .product img{
+         width: 250px;
+         height: 180px;
+     }
+     .leaf{
+         display: none;
+     }
+ }
+ @media(width<=1280px) {
+ 
+   .product img{
+         width:200px;
+         height: 230px;
+     }
+     .leaf{
+         display: none;
+     }
+ }
+ @media(width<=768px) {
+ 
+    .product img{
+         width: 185px;
+         height: 150px;
+     }
+     .leaf{
+         display: none;
+     }
+     .product h1{
+         font-size: 25px;
+     }
+ }
+ @media(width<=576px) {
+     .product-images{
+         flex-direction: column;
+     }
+     .products{
+         text-align: center;
+     }
+    .product img{
+         width: 405px;
+         height: 250px;
+     }
+     .leaf{
+         display: none;
+     }
+     .product h1{
+         font-size: 25px;
+     }
+ }
+ @media(width<=480px) {
+ 
+    .product img{
+         width: 280px;
+         height: 180px;
+     }
+     .leaf{
+         display: none;
+     }
+     .product h1{
+         font-size: 25px;
+     }
+ }
+ @media(width<=280px) {
+ 
+    .product img{
+         width: 200px;
+         height: 180px;
+     }
+     .product-header h1{
+         padding: 0;
+     }
+     .leaf{
+         display: none;
+     }
+     .product h1{
+         font-size: 25px;
+     }
+ }
