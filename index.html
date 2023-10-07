@@ -337,26 +337,25 @@
                         </div>
                     </div>
                     <div class="contact-form">
-                        <form id="login-form">
-                            <div class="input-box">
-                                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                                <input type="text" id="name" required>
-                                <label>Name</label>
-                            </div>
-                            <div class="input-box">
-                                <span class="icon"><ion-icon name="mail"></ion-icon></span>
-                                <input type="email" id="email" required>
-                                <label>Email</label>
-                            </div>
-                            <div class="input-box">
-                                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
-                                <input type="text" id="feedback" required>
-                                <label>Feedback</label>
-                            </div>
-                            <div class="button">
-                                <button class="btn" id="submit-btn">Submit</button>
-                            </div>
-                        </form>
+                      <!-- Updated form with mobile number input -->
+<form id="login-form">
+    <div class="input-box">
+        <span class="icon">&#128274;</span>
+        <input type="text" id="name" placeholder="Your Name" required>
+    </div>
+    <div class="input-box">
+        <span class="icon">&#128241;</span>
+        <input type="tel" id="mobile" placeholder="Your Mobile Number" required>
+    </div>
+    <div class="input-box">
+        <span class="icon">&#128172;</span>
+        <input type="text" id="feedback" placeholder="Your Feedback" required>
+    </div>
+    <div class="button">
+        <button class="btn" id="submit-btn">Submit</button>
+    </div>
+</form>
+
                         <div class="modal" id="success-modal">
                             <div class="modal-content">
                                 <ion-icon name="checkmark-circle"></ion-icon>
